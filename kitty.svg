@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900" role="img" aria-labelledby="title desc">
+  <title id="title">하늘이가 좋아하는 헬로키티</title>
+  <desc id="desc">분홍색 리본을 단 하얀 헬로키티와 하트 장식</desc>
+  <defs><pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2" fill="#f0c8d6"/></pattern></defs>
+  <rect width="800" height="900" fill="#fceaf0"/><rect width="800" height="900" fill="url(#dots)"/>
+  <rect x="65" y="65" width="670" height="770" rx="220" fill="#fff8fb" stroke="#ecc0d0" stroke-width="2"/>
+  <g fill="#e679a0"><path d="M138 256c-32-27-52 14 0 45 52-31 32-72 0-45Z"/><path d="M662 620c-26-22-43 12 0 37 43-25 26-59 0-37Z"/></g>
+  <g fill="none" stroke="#e4a2bb" stroke-width="4" stroke-linecap="round"><path d="M637 224v30m-15-15h30M150 615v26m-13-13h26M581 718v20m-10-10h20"/></g>
+  <ellipse cx="402" cy="691" rx="166" ry="22" fill="#edcbd7"/>
+  <g stroke="#533d49" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M309 559q-51 15-67 72-4 28 29 27l44-26m180-73q51 15 67 72 4 28-29 27l-44-26" fill="#fff"/>
+    <path d="M314 547q86-31 172 0l20 126q-104 33-210 0Z" fill="#e991ae"/>
+    <path d="M363 551v124m78-124v124" fill="none" stroke="#fff1f6" stroke-width="13"/>
+    <path d="M316 674q-28 2-25 24 39 16 88-1v-17m108-6q28 2 25 24-39 16-88-1v-17" fill="#fff"/>
+    <path d="M220 347q-16-98 12-145 59 5 102 67 61-18 128 0 42-62 101-67 30 48 12 145 47 47 35 115-16 105-210 105S205 530 189 462q-12-68 31-115Z" fill="#fff"/>
+    <path d="m214 414-62-13m61 43-68 2m75 25-60 17m427-74 62-13m-61 43 68 2m-75 25 60 17" fill="none"/>
+    <g fill="#533d49" stroke="none"><ellipse cx="308" cy="422" rx="11" ry="16"/><ellipse cx="490" cy="422" rx="11" ry="16"/></g>
+    <ellipse cx="399" cy="451" rx="19" ry="13" fill="#f6d36f" stroke-width="4"/>
+    <g fill="#ed779f"><path d="M501 288q-78-89-88-5-9 67 77 36Z"/><path d="M509 288q59-100 91-31 28 67-71 61Z"/><ellipse cx="507" cy="300" rx="27" ry="29"/><path d="m474 292-17-9m86 5 18-14" fill="none" stroke="#bd4f77" stroke-width="4"/></g>
+  </g>
+  <g fill="#d690ad" opacity=".5"><ellipse cx="277" cy="460" rx="22" ry="10"/><ellipse cx="521" cy="460" rx="22" ry="10"/></g>
+  <text x="400" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="28" letter-spacing="5" fill="#a25473">a little pink, a little me.</text>
+  <text x="400" y="782" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" letter-spacing="4" fill="#a25473">HANEUL'S FAVORITE ♡</text>
+</svg>

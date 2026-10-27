@@ -3,62 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="나만의 시선과 이야기를 담은 개인 포트폴리오입니다.">
-    <meta name="theme-color" content="#f5f3ed">
-    <title>YOUR NAME — Personal Portfolio</title>
+    <meta name="description" content="아주대학교 영어영문학과 이하늘의 작은 소개 공간. 헬로키티와 귀여운 하트 슈팅게임을 만나보세요.">
+    <meta name="theme-color" content="#fff8fb">
+    <title>이하늘 — Haneul’s little world</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
-      :root{--bg:#f5f3ed;--ink:#272924;--muted:#73756c;--line:#d9d9cf;--accent:#e4673c;--panel:#eae9e1;color-scheme:light}
+      :root{--bg:#fff8fb;--ink:#272924;--muted:#73756c;--line:#d9d9cf;--accent:#e4673c;--panel:#eae9e1;color-scheme:light}
       *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:40px}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans','Noto Sans KR',sans-serif;letter-spacing:-.035em;transition:background .25s,color .25s}body.dark{--bg:#22251f;--ink:#f0eee6;--muted:#b0b3a6;--line:#45483e;--panel:#30342c;color-scheme:dark}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}button{cursor:pointer;border:0;color:inherit}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:5px}::selection{background:var(--accent);color:white}.shell{max-width:1440px;margin:auto;padding:0 6%}.header{height:104px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-size:21px;font-weight:700;letter-spacing:-1px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-left:4px}.nav{display:flex;gap:36px;align-items:center;font-size:13px;letter-spacing:0}.nav a:hover{color:var(--accent)}.theme{width:36px;height:36px;background:transparent;border:1px solid var(--line);border-radius:50%;font-size:18px}.hero{padding:68px 0 75px;display:grid;grid-template-columns:1.2fr 1fr;gap:6%;align-items:center}.eyebrow{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.16em;font-weight:500}.eyebrow:before{content:'';width:7px;height:7px;background:var(--accent);border-radius:50%}h1{font-size:clamp(40px,4.7vw,68px);font-weight:500;line-height:1.34;letter-spacing:-.075em;margin:29px 0 25px;word-break:keep-all}h1 em{font-style:normal;color:var(--accent)}.intro{font-size:14px;line-height:1.95;color:var(--muted);max-width:370px;white-space:pre-line;word-break:keep-all}.primary{display:inline-flex;align-items:center;gap:40px;background:var(--ink);color:var(--bg);padding:17px 22px;font-size:13px;margin-top:25px}.primary:hover{background:var(--accent);color:#fff}.arrow{font-size:20px}.hero-note{margin-top:48px;color:var(--muted);font-size:10px;letter-spacing:.08em;display:flex;align-items:center;gap:10px}.hero-note:before{content:'';width:30px;height:1px;background:var(--muted)}.portrait-wrap{position:relative;padding:0 0 28px 24px}.portrait-wrap:before{content:'';position:absolute;inset:28px 24px 0 0;background:var(--line)}.photo-button{padding:0;display:block;background:var(--panel);width:100%;position:relative;overflow:hidden}.portrait{display:block;width:100%;height:490px;object-fit:cover;transition:transform .6s}.photo-button:hover img{transform:scale(1.035)}.photo-label{position:absolute;bottom:18px;left:18px;color:white;font-size:10px;letter-spacing:.14em;background:#24282090;padding:9px 12px;backdrop-filter:blur(6px)}.image-caption{position:relative;display:flex;justify-content:space-between;font-size:10px;color:var(--muted);letter-spacing:.05em;padding:12px 0 0;gap:10px}.section{border-top:1px solid var(--line);padding:66px 0}.section-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:42px;gap:15px}.section-kicker{font-size:11px;letter-spacing:.14em;font-weight:400;margin:0}.section-kicker span{color:var(--accent);margin-right:18px}.section-note{color:var(--muted);font-size:11px;letter-spacing:.02em}.about-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:10%}h2{font-size:clamp(28px,3vw,42px);font-weight:500;line-height:1.5;letter-spacing:-.065em;margin:0;word-break:keep-all}.serif{font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-.05em}.about-copy{font-size:14px;line-height:2;color:var(--muted);white-space:pre-line;margin:4px 0 26px;word-break:keep-all}.tags{display:flex;gap:8px;flex-wrap:wrap}.tag{font-size:11px;padding:8px 13px;border:1px solid var(--line);border-radius:30px;letter-spacing:0}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.gallery figure{margin:0;min-width:0}.gallery img{width:100%;height:300px;object-fit:cover;display:block;transition:transform .6s}.gallery figure:nth-child(2){padding-top:48px}.gallery figcaption{display:flex;justify-content:space-between;margin-top:16px;font-size:12px;letter-spacing:0;gap:8px}.gallery figcaption span{color:var(--muted);font-size:10px}.gallery-intro{font-size:13px;color:var(--muted);margin:-20px 0 32px;line-height:1.8}.contact{background:var(--panel);padding:55px;display:flex;justify-content:space-between;align-items:center;gap:30px;margin:12px 0 70px}.contact .section-kicker{color:var(--muted);display:block;margin-bottom:20px}.contact h2{font-size:clamp(28px,3.2vw,44px)}.contact-button{display:flex;align-items:center;gap:40px;border-bottom:1px solid var(--ink);padding:14px 0;background:transparent;font-size:15px;white-space:nowrap}.contact-button:hover{color:var(--accent);border-color:var(--accent)}footer{padding:0 0 28px;display:flex;justify-content:space-between;align-items:center;gap:20px;color:var(--muted);font-size:10px;letter-spacing:.04em}.footer-tools{display:flex;gap:20px;align-items:center}.text-button{background:transparent;padding:8px 0;color:var(--muted);font-size:11px}.text-button:hover{color:var(--ink)}dialog{border:1px solid var(--line);background:var(--bg);color:var(--ink);max-width:520px;width:calc(100% - 32px);padding:30px;max-height:90vh;overflow:auto}dialog::backdrop{background:#10161099;backdrop-filter:blur(5px)}.dialog-top{display:flex;justify-content:space-between;align-items:center;gap:16px}.dialog-top h2{font-size:25px}.close{background:transparent;font-size:25px;padding:2px 8px}.helper{font-size:12px;line-height:1.8;color:var(--muted)}label{display:block;font-size:12px;margin-top:18px}input,textarea{display:block;background:var(--panel);color:var(--ink);width:100%;padding:12px;border:1px solid var(--line);border-radius:0;margin-top:7px;font-size:13px}textarea{resize:vertical;min-height:90px}input[type=file]{font-size:11px}.form-actions{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:24px}.form-actions .primary{margin:0}.status{font-size:12px;color:var(--accent);min-height:18px}#lightbox{max-width:1000px;padding:12px}#lightbox img{display:block;max-height:76vh;max-width:100%;margin:auto;object-fit:contain}#lightbox .dialog-top{margin-bottom:10px}#lightbox-title{font-size:12px;padding-left:8px}#toast{position:fixed;bottom:25px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:12px;padding:14px 22px;z-index:10;box-shadow:0 4px 24px #0002;max-width:90%;width:max-content}#toast[hidden]{display:none}.skip{position:absolute;top:-80px;left:12px;background:var(--ink);color:var(--bg);padding:12px;z-index:10}.skip:focus{top:12px}
       @media(min-width:1500px){.hero{padding-top:85px;padding-bottom:90px}.portrait{height:560px}}
       @media(max-width:800px){.header{height:80px}.nav{gap:20px}.hero{gap:5%;padding:45px 0 55px}h1{font-size:39px}.portrait{height:410px}.hero-note{margin-top:30px}.about-grid{gap:6%}.gallery{gap:15px}.gallery img{height:220px}.contact{padding:35px}}
       @media(max-width:600px){.header{height:76px}.brand{font-size:18px}.nav{gap:16px;font-size:11px}.nav-contact{display:none}.theme{width:30px;height:30px;font-size:16px}.hero{grid-template-columns:1fr;gap:40px;padding:42px 0 45px}h1{font-size:clamp(35px,10.5vw,48px);margin:23px 0 20px}.intro{font-size:13px}.hero-note{margin-top:24px;font-size:9px}.portrait-wrap{padding-left:17px;padding-bottom:23px}.portrait{height:420px}.portrait-wrap:before{inset:23px 17px 0 0}.section{padding:43px 0}.section-top{margin-bottom:28px}.section-note{font-size:9px}.about-grid{grid-template-columns:1fr;gap:20px}.about-copy{font-size:13px}.gallery{gap:12px;grid-template-columns:1fr 1fr}.gallery img{height:220px}.gallery figure:nth-child(2){padding-top:32px}.gallery figure:last-child{grid-column:1/-1;margin-top:10px}.gallery figure:last-child img{height:240px}.gallery figcaption{font-size:11px;flex-wrap:wrap}.contact{margin:5px 0 35px;padding:30px 25px;align-items:flex-start;flex-direction:column;gap:20px}.contact-button{font-size:13px;gap:50px}.contact .section-kicker{margin-bottom:15px}footer{align-items:flex-start;flex-direction:column;gap:8px}.footer-tools{width:100%;justify-content:space-between}.gallery-intro{font-size:12px;margin-top:-5px}dialog{padding:23px}}
       @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
     </style>
+    <link rel="stylesheet" href="cute.css">
 </head>
 <body>
   <a class="skip" href="#main">본문으로 이동</a>
   <div class="shell" id="top">
     <header class="header">
-      <a class="brand" href="#top"><span data-name>YOUR NAME</span><span class="dot"></span></a>
-      <nav class="nav" aria-label="주요 메뉴"><a href="#about">About</a><a href="#moments">Moments</a><a class="nav-contact" href="#contact">Contact</a><button class="theme" type="button" aria-label="다크 모드 켜기" aria-pressed="false">☾</button></nav>
+      <a class="brand" href="#top"><span data-name>이하늘</span><span class="dot"></span></a>
+      <nav class="nav" aria-label="주요 메뉴"><a href="#about">About</a><a href="#moments">Photos</a><a href="#game">Play ♡</a><a class="nav-contact" href="#contact">Contact</a><button class="theme" type="button" aria-label="다크 모드 켜기" aria-pressed="false">☾</button></nav>
     </header>
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <div>
-          <div class="eyebrow">A LITTLE ABOUT ME</div>
-          <h1 id="hero-title">좋은 시선으로,<br>나만의 <em>이야기</em>를<br>만들어갑니다.</h1>
-          <p class="intro" id="intro">작은 순간에서 영감을 찾고, 좋아하는 것들을 연결합니다.
-이곳은 저의 취향과 생각을 담아가는 공간입니다.</p>
-          <a class="primary" href="#about">저를 소개할게요 <span class="arrow" aria-hidden="true">↗</span></a>
-          <div class="hero-note">A PERSONAL SPACE, A UNIQUE PERSPECTIVE.</div>
+          <div class="eyebrow">WELCOME TO MY LITTLE WORLD</div>
+          <h1 id="hero-title">안녕, 나는<br><em>이하늘</em>이야 <span style="color:var(--accent)">୨୧</span><br>만나서 반가워!</h1>
+          <p class="intro" id="intro">아주대학교 영어영문학과에 다니는 이하늘입니다.
+내가 좋아하는 헬로키티처럼, 귀여운 것들로
+나만의 작은 공간을 꾸며봤어요. ♡</p>
+          <a class="primary" href="#about">나를 소개할게요 ♡ <span class="arrow" aria-hidden="true">↗</span></a>
+          <div class="hero-note">AJOU UNIVERSITY · ENGLISH LANGUAGE & LITERATURE</div>
         </div>
         <div class="portrait-wrap">
-          <button class="photo-button" type="button" data-enlarge aria-label="대표 사진 크게 보기"><img class="portrait" id="profile-photo" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="햇빛이 드는 차분한 공간의 샘플 사진" fetchpriority="high"><span class="photo-label">A SPACE TO BE MYSELF</span></button>
-          <div class="image-caption"><span id="photo-caption">01 / 나를 닮은 공간 · 샘플 이미지</span><span>VIEW IMAGE ↗</span></div>
+          <button class="photo-button" type="button" data-enlarge aria-label="대표 이미지 크게 보기"><img class="portrait" id="profile-photo" src="kitty.svg" alt="분홍 리본을 단 헬로키티 일러스트" fetchpriority="high"><span class="photo-label">MY FAVORITE · HELLO KITTY</span></button>
+          <div class="image-caption"><span id="photo-caption">01 / 내가 좋아하는 헬로키티 ♡</span><span>VIEW IMAGE ↗</span></div>
         </div>
       </section>
       <section class="section" id="about" aria-labelledby="about-title">
-        <div class="section-top"><div class="section-kicker"><span>01</span> ABOUT ME</div><span class="section-note">조금 더 가까이, 나의 이야기</span></div>
+        <div class="section-top"><div class="section-kicker"><span>01</span> ABOUT ME</div><span class="section-note">하늘이를 조금 더 알아보기</span></div>
         <div class="about-grid">
-          <h2 id="about-title">나를 이루는 건,<br>내가 좋아하는 것들.<br><span class="serif">Always curious, always me.</span></h2>
-          <div><p class="about-copy" id="about-copy">안녕하세요. 나만의 이야기를 채워가는 YOUR NAME입니다.
+          <h2 id="about-title">영어영문학을 공부하는<br>헬로키티 러버, 이하늘.<br><span class="serif">A little pink, a little me.</span></h2>
+          <div><p class="about-copy" id="about-copy">안녕하세요! 아주대학교 영어영문학과에 다니는 이하늘이에요.
 
-이곳에 나의 일, 관심사, 소중히 여기는 가치를 소개해 보세요. 짧은 한 문장부터 시작해도 좋아요. 나다운 이야기가 가장 좋은 소개가 되니까요.</p><div class="tags"><span class="tag">Curiosity</span><span class="tag">Creativity</span><span class="tag">Everyday inspiration</span></div></div>
+제가 좋아하는 캐릭터는 헬로키티예요. 그래서 이 공간에도 리본과 핑크빛을 살짝 담았어요. 제 소개도 구경하고, 아래 작은 슈팅게임도 즐기다 가세요! ♡</p><div class="tags"><span class="tag">아주대학교</span><span class="tag">영어영문학과</span><span class="tag">Hello Kitty ♡</span></div></div>
         </div>
       </section>
       <section class="section" id="moments" aria-labelledby="moments-title">
-        <div class="section-top"><h2 class="section-kicker" id="moments-title"><span>02</span> SELECTED MOMENTS</h2><span class="section-note">일상 속 작은 영감들</span></div>
-        <p class="gallery-intro">빛과 공간, 그리고 잠깐의 쉼. 취향을 담을 사진 공간입니다. 아래는 샘플 이미지예요.</p>
+        <div class="section-top"><h2 class="section-kicker" id="moments-title"><span>02</span> SELECTED MOMENTS</h2><span class="section-note">하늘이의 사진첩</span></div>
+        <p class="gallery-intro">나의 사진과 추억을 채워갈 자리예요. 지금은 샘플 사진을 넣어두었어요. ♡</p>
         <div class="gallery">
           <figure><button class="photo-button" type="button" data-enlarge aria-label="건축 사진 크게 보기"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="빛과 그림자가 만드는 건축물의 곡선" loading="lazy"></button><figcaption>Lines &amp; light <span>01 — SPACE</span></figcaption></figure>
           <figure><button class="photo-button" type="button" data-enlarge aria-label="자연 사진 크게 보기"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="초록빛 숲 사이로 비치는 햇살" loading="lazy"></button><figcaption>A slower pace <span>02 — NATURE</span></figcaption></figure>
           <figure><button class="photo-button" type="button" data-enlarge aria-label="커피 사진 크게 보기"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="잠깐의 여유를 위한 따뜻한 커피 한 잔" loading="lazy"></button><figcaption>Little rituals <span>03 — DAILY</span></figcaption></figure>
         </div>
       </section>
-      <section class="contact" id="contact" aria-labelledby="contact-title"><div><span class="section-kicker">LET’S CONNECT</span><h2 id="contact-title">좋은 인연은,<br>작은 인사에서 시작되니까요.</h2></div><button type="button" class="contact-button" id="contact-action"><span id="contact-label">이메일 설정하기</span><span class="arrow" aria-hidden="true">↗</span></button></section>
+      <section class="section game-section" id="game" aria-labelledby="game-title">
+        <div class="section-top"><div class="section-kicker"><span>03</span> HANEUL’S PLAYROOM</div><span class="section-note">잠깐, 한 판 하고 갈래? ♡</span></div>
+        <div class="game-layout">
+          <div class="game-intro"><div class="eyebrow">A TINY GAME FOR YOU</div><h2 id="game-title" style="margin-top:18px">하트를 쏘고,<br>행운을 모아봐! <span style="color:var(--accent)">୨୧</span></h2><p class="game-description">리본 우주선을 움직여 내려오는 방울을 터뜨려요.<br>45초 동안 얼마나 많은 하트를 모을 수 있을까요?</p><ul class="game-instructions"><li><kbd>←</kbd> <kbd>→</kbd> 또는 <kbd>A</kbd> <kbd>D</kbd> 좌우 이동</li><li>모바일은 화면 드래그 또는 아래 화살표</li><li>하트는 자동 발사 · 방울을 놓치면 생명 −1</li><li><kbd>P</kbd> 일시정지 · 생명은 총 3개</li></ul><span class="kit-note">୨୧ 오늘의 미션: 300점에 도전해 봐!</span><p class="game-footnote">최고 기록은 이 브라우저에 저장돼요.<br>헬로키티를 좋아하는 하늘이의 개인 팬 공간입니다.</p></div>
+          <div class="game-frame" id="game-frame">
+            <div class="game-scoreboard"><span>SCORE <strong id="game-score">0</strong></span><span>BEST <strong id="game-best">0</strong></span><span>TIME <strong id="game-time">45</strong></span><span>♥ <strong id="game-lives">3</strong></span></div>
+            <div class="game-stage"><canvas id="game-canvas" width="800" height="480" tabindex="0" aria-label="하트 슈팅게임. 좌우 방향키로 이동하며 자동 발사되는 하트로 방울을 터뜨리세요.">게임을 하려면 Canvas를 지원하는 브라우저가 필요해요.</canvas><div class="game-overlay" id="game-overlay"><div><div class="bow" aria-hidden="true">୨୧</div><h3 id="game-overlay-title">Ribbon Heart Shooter</h3><p id="game-overlay-copy">작은 리본 우주선과 함께하는 하트 모으기 ♡</p><button class="primary" type="button" id="game-start">게임 시작 ♡</button></div></div></div>
+            <div class="game-toolbar"><div class="touch-controls"><button type="button" id="move-left" aria-label="우주선을 왼쪽으로 이동">←</button><button type="button" id="move-right" aria-label="우주선을 오른쪽으로 이동">→</button></div><button type="button" id="game-pause" disabled>일시정지</button></div><p class="game-status" id="game-status" role="status">시작 버튼을 누르면 하트가 자동으로 발사돼요.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-title"><div><span class="section-kicker">LET’S CONNECT</span><h2 id="contact-title">들러줘서 고마워요.<br>우리, 인사 나눠요 ♡</h2></div><button type="button" class="contact-button" id="contact-action"><span id="contact-label">이메일 설정하기</span><span class="arrow" aria-hidden="true">↗</span></button></section>
     </main>
-    <footer><span>© <span id="year"></span> <span data-name>YOUR NAME</span>. Made with a little curiosity.</span><div class="footer-tools"><button class="text-button" type="button" id="edit-profile">프로필 설정 ↗</button><a href="#top">BACK TO TOP ↑</a></div></footer>
+    <footer><span>© <span id="year"></span> <span data-name>이하늘</span>. Made with love & a little ribbon.</span><div class="footer-tools"><button class="text-button" type="button" id="edit-profile">프로필 설정 ↗</button><a href="#top">BACK TO TOP ↑</a></div></footer>
   </div>
   <dialog id="settings" aria-labelledby="settings-title">
     <div class="dialog-top"><h2 id="settings-title">나의 이야기 채우기</h2><button type="button" class="close" data-close aria-label="설정 닫기">×</button></div>
@@ -77,8 +90,8 @@
   <div id="toast" role="status" hidden></div>
   <script>
     // 공개할 정보는 아래 기본값과 본문의 샘플 사진·문구를 수정하세요.
-    const defaults = {name:'YOUR NAME',intro:document.querySelector('#intro').textContent,about:document.querySelector('#about-copy').textContent,email:'',photo:''};
-    const storageKey = 'personal-portfolio-v1';
+    const defaults = {name:'이하늘',intro:document.querySelector('#intro').textContent,about:document.querySelector('#about-copy').textContent,email:'',photo:''};
+    const storageKey = 'haneul-portfolio-v2';
     const originalPhoto = document.querySelector('#profile-photo').src;
     let profile = {...defaults};
     try {const saved=JSON.parse(localStorage.getItem(storageKey));if(saved&&typeof saved==='object')for(const key of Object.keys(defaults))if(typeof saved[key]==='string')profile[key]=saved[key];}catch{}
@@ -90,18 +103,18 @@
       const customPhoto=/^data:image\/(jpeg|png|webp);base64,/.test(profile.photo);
       const photo=document.querySelector('#profile-photo');
       photo.src=customPhoto?profile.photo:originalPhoto;
-      photo.alt=customPhoto?profile.name+'의 대표 사진':'햇빛이 드는 차분한 공간의 샘플 사진';
-      document.querySelector('#photo-caption').textContent=customPhoto?'01 / 나를 닮은 순간':'01 / 나를 닮은 공간 · 샘플 이미지';
-      document.querySelector('.photo-label').textContent=customPhoto?'A LITTLE PIECE OF ME':'A SPACE TO BE MYSELF';
+      photo.alt=customPhoto?profile.name+'의 대표 사진':'분홍 리본을 단 헬로키티 일러스트';
+      document.querySelector('#photo-caption').textContent=customPhoto?'01 / 나를 닮은 순간':'01 / 내가 좋아하는 헬로키티 ♡';
+      document.querySelector('.photo-label').textContent=customPhoto?'A LITTLE PIECE OF ME':'MY FAVORITE · HELLO KITTY';
       document.querySelector('#contact-label').textContent=validEmail(profile.email)?'이메일로 인사하기':'이메일 설정하기';
-      document.title=profile.name+' — Personal Portfolio';
+      document.title=profile.name+' — Haneul’s little world';
     }
     render();
     document.querySelector('#year').textContent=new Date().getFullYear();
     const themeButton=document.querySelector('.theme');
     let dark=matchMedia('(prefers-color-scheme: dark)').matches;
     try{const stored=localStorage.getItem('portfolio-theme');if(stored)dark=stored==='dark';}catch{}
-    function setTheme(value){document.body.classList.toggle('dark',value);themeButton.textContent=value?'☀':'☾';themeButton.setAttribute('aria-pressed',String(value));themeButton.setAttribute('aria-label',value?'라이트 모드 켜기':'다크 모드 켜기');document.querySelector('meta[name="theme-color"]').content=value?'#22251f':'#f5f3ed';}
+    function setTheme(value){document.body.classList.toggle('dark',value);themeButton.textContent=value?'☀':'☾';themeButton.setAttribute('aria-pressed',String(value));themeButton.setAttribute('aria-label',value?'라이트 모드 켜기':'다크 모드 켜기');document.querySelector('meta[name="theme-color"]').content=value?'#2c202b':'#fff8fb';}
     setTheme(dark);
     themeButton.addEventListener('click',()=>{dark=!dark;setTheme(dark);try{localStorage.setItem('portfolio-theme',dark?'dark':'light');}catch{}});
     const settings=document.querySelector('#settings');
@@ -136,5 +149,6 @@
     });
     document.querySelector('#reset-profile').addEventListener('click',()=>{try{localStorage.removeItem(storageKey);}catch{document.querySelector('#form-status').textContent='브라우저 저장 권한을 확인해 주세요.';return;}profile={...defaults};render();settings.close();toast('기본 프로필로 돌아왔어요.');});
   </script>
+  <script src="game.js"></script>
 </body>
 </html>
